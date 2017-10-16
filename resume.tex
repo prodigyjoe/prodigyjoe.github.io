@@ -1,0 +1,140 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Joseph} \headerlastnamestyle{Patterson} \\
+	\vspace{2mm}
+	{\faEnvelope\ josephpatterson24@gmail.com} | {\faMobile\ (773) 879-6814} | {\faMapMarker\ Chicago, IL} | {\faLink\ github.com/prodigyjoe}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{Associates in Computer Science}
+	{Harold Washington College}
+	{Chicago, IL}
+	{December 2019}
+	{}
+\end{cventries}
+
+\vspace{-2mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Enterprise Server Platform - Virtualization, Intern}
+	{Chicago Mercantile Exchange}
+	{Chicago, IL}
+	{May 2017 – August 2017}
+	{\begin{cvitems}
+		\item {Categorized over 200 virtual machines using VMware VSphere Clients}
+		\item {Collaborated with colleague on task distribution to ensure deadlines were met}
+		\item {Wrote scripts using PowerCLI and Powershell to tag 200 virtual machines}
+		\item {Automated scripts in Ruby and Perl to sort switches with multiple distributions}
+		\item {Presented weekly to team about script optimization}
+		\item {Participated in daily meetings to receive tasks and give update report on assignments}
+		\end{cvitems}}
+	\cventry
+	{Information Technology, Intern}
+	{Chicago Cubs}
+	{Chicago, IL}
+	{May 2016 – August 2016}
+	{\begin{cvitems}
+		\item {Assisted over 100 employees with account management through Active Directory}
+		\item {Used Salesforce for ticketing, processing over 200 tickets}
+		\item {Provided support for HP printers, Windows PCs, Microsoft Surface tablets, and iPhones}
+		\item {Installed latest Office 2016 Upgrade on over 50 devices}
+		\item {Upgraded over 20 Windows computers to latest version of Windows 10 and Office 2016}
+		\item {Set up presentation components for several Audio Visual events within the ballpark}
+		\item {Imaged over 20 Dell laptops}
+		\end{cvitems}}
+	\cventry
+	{Information Technology, Intern}
+	{Spencer Stuart}
+	{Chicago, IL}
+	{October 2014 – August 2015}
+	{\begin{cvitems}
+		\item {Used Mobile Development Management to rollout software updates on more than 100 company devices}
+		\item {Provided support for over 200 users regarding networks, HP printers, Windows PCs, iPads, Cisco telephones, and Windows laptops}
+		\item {Diagnosed and repaired laptop components}
+		\item {Managed and maintained equipment inventories using Excel}
+		\item {Imaged over 50 Dell laptops}
+		\item {Assembled hardware components such as monitor, keyboard, mouse, docks, and etc for over 50 Windows workstations}
+		\end{cvitems}}
+\end{cventries}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Programming Languages:  & {\skill{ Powershell, PowerCLI, Familiarity with: Ruby, Perl, Python}} \\
+		Web Design:  & {\skill{ HTML, CSS, JavaScript}} \\
+		Technical skills:  & {\skill{ VMWare VSphere, Salesforce, Mobile Development Management,}} \\
+		& {\skill{ Windows (7-10), Desktop Imaging, Office 2016}} \\
+		Certifications:  & {\skill{ CompTIA STRATA, Cisco IT Essentials}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+
+\vspace{-7mm}
+    
+\cvsection{Honors \& Awards}
+\begin{cvhonors}
+	\cvhonor
+	{2nd Place at ChicagosNext Azure/O365 Hackathon}
+	{Created an awesome app that everyone loved.}
+	{Chicago, IL}
+	{May 2015}
+\end{cvhonors}
+\ 
+\end{document}
