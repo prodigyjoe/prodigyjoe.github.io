@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css2.css">
+    <title>GifAcademy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div id="container">
+            <header>
+                    <div id="header">
+                        <h1><a name="Home">Visual Academy</a></h1>
+                        <h2>A visual learner's paradise!</h2>
+                    </div><!--end header-->
+                </header>
+
+        <nav>
+                <div class="navbar">
+                <ul>         
+                    <a href="index.html">Home</a>
+                    
+                    <div class="dropdown">
+                        <button class="dropbtn">Infographics<i class="fa fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="educationalimages.html">Educational</a>
+                            </div>
+                    </div>
+    
+                    <div class="dropdown">
+                        <button class="dropbtn">Gifs<i class="fa fa-caret-down"></i></button>
+                            <div class="dropdown-content">
+                                <a href="biologygifs.html">Biology</a>
+                                <a href="chemistrygifs.html">Chemistry</a>
+                                <a href="educationalgifs.html">Educational</a>
+                            </div>
+                    </div>
+    
+                    <a href="usefullinks.html">Resources</a>
+                    <a href="feedback.html">Feedback</a>
+                    <a href="contact.html">Contact</a>
+    
+                </ul>   
+                </div>
+            </nav>
+
+            <main>
+                <h3></h3>
+            </main>
+
+        <main>
+            <h3>Site Feedback</h3>
+            <h4>Please fill out a feedback form</h4>
+            <form>
+                    <label for="fName">First Name:</label>
+                    <input type="text" name="fName" id="fName">
+
+                    <label for="lName">Last Name:</label>
+                    <input type="text" name="lName" id="lName">
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" name="phone" id="phone">
+
+                    <p>I would like more information about:</p>
+                    <ul>
+                        <li><input type="checkbox" name="grpfit" id="grpfit"
+                        value="grpfit" class="chkbx">Gifs</li>
+                        <li><input type="checkbox" name="prtrain" id="prtrain"
+                        value="prtain" class="chkbx">Images</li>
+                        <li><input type="checkbox" name="nutr" id="nutr"
+                        value="nutr" class="chkbx">How to contribute</li>
+                    </ul>
+
+                    <label for="reference">How did you hear about this site?:</label>
+                    <select name="reference" id="reference">
+                        <option value="google">Google</option>
+                        <option value="facebook">Facebook</option>
+                        <option value="linkedin">Linkedin</option>
+                        <option value="instagram">Instagram</option>
+                        <option value="instagram">Friend</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label for ="questions">Feedback</label>
+                    <textarea id="questions" name="questions" rows="3" cols="25"></textarea>
+
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    <input type="reset" id="reset" value="Reset Form" class="btn">
+                </form>            
+        </main>
+
+        <footer>
+            &copy; Copyright 2017. Joseph Patterson. <br>
+        </footer>
+    </div><!--end container-->
+</body>
+</html>
+
